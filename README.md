@@ -38,10 +38,6 @@ Weather API → Airflow DAG → Data Transformation → AWS S3
 ## 📅 Scheduling
 Runs automatically using Airflow scheduler: @daily  
 
-## 📁 Project Structure
-- weather_dag.py  
-- requirements.txt  
-- README.md  
 
 ## 🔐 Configuration
 - OpenWeatherMap API key required  
@@ -57,6 +53,3 @@ Runs automatically using Airflow scheduler: @daily
 - Implement data validation and logging  
 - Integrate data warehouse (Redshift/BigQuery)  
 - Add dashboard for visualization  
-
-## 👩‍💻 Author
-Priyanka
